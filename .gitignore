@@ -1,8 +1,12 @@
 # Visual Studio user files and folders
 *.vcxproj.user
+*.suo
 .vs/
 # Not sure if .filters files should be excluded
 # *.vcxproj.filters
+
+# C# intermediate files
+obj/
 
 # Build output folder
 /Build
