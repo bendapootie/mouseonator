@@ -42,6 +42,8 @@ namespace dotNetUi
         const uint INPUT_KEYBOARD = 1;
         const uint INPUT_HARDWARE = 2;
 
+        const uint VK_PAUSE = 0x13;
+
         const uint VK_ESCAPE = 0x1B;
 
         const uint VK_F1  = 0x70;
@@ -252,8 +254,8 @@ namespace dotNetUi
 
             HK_StartHook();
             HK_SetRecordingKey(VK_F12);
-            HK_SetPlaybackKey(VK_F9);
-            HK_SetCancelPlaybackKey(VK_ESCAPE);
+            HK_SetPlaybackKey(VK_F11);
+            HK_SetCancelPlaybackKey(VK_PAUSE);
             HK_SetAutoClickKey(VK_SCROLL);
         }
 
